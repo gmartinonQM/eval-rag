@@ -1,0 +1,39 @@
+[project]
+name = "audit_llm"
+version = "0.1.0"
+description = "Audit LLM"
+license = "BSD-3-Clause"
+requires-python = ">=3.11,<3.13"
+authors = [
+    { name = "Grégoire Martinon", email = "gregoire.martinon@capgemini.com" },
+    { name = "Jérôme Bohard", email = "jerome.bohard@capgemini.com" },
+    { name = "Antoine Lojou", email = "antoine.lojou@capgemini.com" },
+    { name = "Alexandra Lorenzo", email = "alexandra.lorenzo-de-brionne@capgemini.com" },
+]
+readme = "README.md"
+dependencies = [
+    "langchain==0.3.17",
+    "numpy==1.26.4",
+    "openai==1.58.1",
+    "pandas==2.2.2",
+    "requests==2.32.3",
+    "scikit-learn==1.5.2",
+    "python-dotenv==1.0.1",
+    "openpyxl==3.1.5",
+    "ppi-python==0.2.3",
+    "dateparser==1.2.1",
+    "python-docx==1.1.2",
+    "langfuse==2.59.3",
+    "pydantic==2.10.4",
+    "nltk>=3.9.1",
+    "langdetect>=1.0.9",
+    "statsmodels>=0.14.4",
+    "scipy>=1.15.2",
+]
+
+[dependency-groups]
+dev = ["pytest==8.3.3", "ruff==0.6.7", "mypy==1.15.0", "pre-commit==4.2.0"]
+explo = [
+    "plotly==6.0.1",
+    "notebook==7.3.2",
+]

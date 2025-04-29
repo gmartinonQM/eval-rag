@@ -1,0 +1,11 @@
+*__pycache__
+*.ipynb_checkpoints
+*.egg-info
+*.csv
+*.xlsx
+*.docx
+*.json
+*.pkl
+*.npz
+*.DS_Store
+.env
