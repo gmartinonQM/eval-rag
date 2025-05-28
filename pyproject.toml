@@ -1,5 +1,5 @@
 [project]
-name = "audit_llm"
+name = "eval_rag"
 version = "0.1.0"
 description = "Audit LLM"
 license = "BSD-3-Clause"
@@ -17,17 +17,10 @@ dependencies = [
     "openai==1.58.1",
     "pandas==2.2.2",
     "requests==2.32.3",
-    "scikit-learn==1.5.2",
     "python-dotenv==1.0.1",
-    "openpyxl==3.1.5",
     "ppi-python==0.2.3",
-    "dateparser==1.2.1",
-    "python-docx==1.1.2",
     "langfuse==2.59.3",
     "pydantic==2.10.4",
-    "nltk>=3.9.1",
-    "langdetect>=1.0.9",
-    "statsmodels>=0.14.4",
     "scipy>=1.15.2",
 ]
 
